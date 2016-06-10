@@ -2,7 +2,7 @@ from zabbix_api import ZabbixAPI
 
 zapi = ZabbixAPI(server="http://192.168.1.80/zabbix")
 
-zapi.login("josevicente","@sonic123")
+zapi.login("user","password")
 
 group_id = '8'
 template_id = '10116'
