@@ -2,7 +2,7 @@ from zabbix_api import ZabbixAPI
 
 zapi = ZabbixAPI(server="http://192.168.1.80/zabbix")
 
-zapi.login("josevicente","@sonic123")
+zapi.login("user","password")
 
 with open('grupos.txt', 'r')as clientes:
     c = clientes.readlines()
