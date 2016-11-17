@@ -22,5 +22,5 @@ with open('grupos.txt', 'r')as clientes: # open the file as clientes
             zapi.usergroup.create({"name": group_name}) # create the user group name
             print("[+] User Group {} successfully created".format(group_name))
         except:
-            print("[-] It WAS not possible to create the User Group")
+            print("[-] It WAS NOT possible to create the User Group")
 
